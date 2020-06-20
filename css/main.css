@@ -1,0 +1,106 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	background-image: url(../images/L.O.V.E.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: Sophia ;
+	}
+header
+{
+	cursor: default;
+	position: relative;
+	width: 100%;
+	height: 150px; 
+	text-align: center; 
+}
+h1
+{
+	display: inline;
+	line-height: 120px;
+	font-family: Sophia;
+	font-weight: bold;
+	font-size: 48px;
+	font-style: italic;
+	color: white
+}
+#wrapped-index
+{
+	cursor: default;
+	width: 100%;
+	height: 430px;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 30px;
+	padding-top: 20px ;
+	font-family: Sophia;
+	color: white;
+	font-style: italic;
+}
+#form
+{
+  	padding: 30px;
+}
+.box
+{
+	border: 2px;
+	border-radius: 10px ;
+	width: 100px;
+	height: 100px;
+	font-family: Sophia;
+	font-style: italic;
+	color: #FF004F;
+	text-align: center;
+	font-size: 30px;
+	background-color:rgba(0, 0, 0, 0)
+}
+#confirmButton
+{
+	margin: 20px;
+	width: 100px;
+	height: 60px;
+	border-radius: 10px;
+	border: none;
+	background-color: #FF004F;
+	color: white;
+	font-size: 20px;
+	font-family: Sophia;
+	font-style: italic;
+}
+#confirmButton:hover
+{
+	background-color: rgba(0, 0, 0, 0) ;
+	color: #FF004F;
+	font-weight: bolder;
+	font-size: 30px;
+}
+#wrapped-display
+{
+	cursor: default;
+	width: 100%;
+	height: 430px;
+	display: none;
+	text-align: center;
+}
+#result
+{
+	font-family: Sophia;
+	font-weight: bold;
+	color: #FF004F;
+	line-height: 100px;
+	font-size: 48px;
+}
+#change-form-icon
+{
+	color: white;
+	padding: 10px;
+}
+
+

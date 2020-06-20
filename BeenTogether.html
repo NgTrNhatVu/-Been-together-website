@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Love clock</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+	<script src="js/main.js"></script>
+	<script src="js/menu.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li onclick="display1stSubMenu()">
+					Change background
+					<div class="ul-icons">
+						<i class="fa fa-angle-right" aria-hidden="true"></i>
+					</div>
+					<ul class="sub-menu">
+						<li style="background-image: url(images/L.O.V.E.jpeg); background-position: 5px;" onclick="changeBackgroundToLoveImg()">L.O.V.E</li>
+						<li style="background-image: url(images/garden-background.jpeg); background-position: 20px;" onclick="changeBackgroundToGardenImg()">Garden</li>
+					</ul>
+				</li>
+				<li onclick="display2ndSubMenu()">
+					Change language
+					<div class="ul-icons">
+						<i class="fa fa-angle-right" aria-hidden="true" ></i>
+					</div>
+					<ul class="sub-menu">
+						<li>Vietnamese</li>
+						<li>English</li>
+						<li>French</li>
+						<li>Chinese</li>
+						<li>Japanese</li>
+					</ul>
+				</li>
+			</ul>
+			
+		</nav>
+		<span class="fa-stack" id="menu-icon" onclick="displayMenu()">
+			<i class="far fa-circle fa-stack-2x"></i>
+			<i class="fas fa-bars fa-stack-1x"></i>
+		</span>
+		
+		<h1>Welcome to Been together!</h1>
+	</header>
+
+	<div id="wrapped-index">
+		<h2>Choose your first day</h2>
+		<form id="form">
+			<input type="text" class="box" placeholder="01" id="startDay">
+			<input type="text" class="box" placeholder="01" id="startMonth">
+			<input type="text" class="box" placeholder="2020" id="startYear">
+			<br>
+			<input type="button" id="confirmButton" value="Love" onclick="displayResult()">
+		</form>
+	</div>
+	<div id="wrapped-display">
+		<h2>You two have been in love for</h2>
+		<span id="result"></span>
+		<br>
+		<i class="fas fa-sync" id="change-form-icon" onclick="changeDisplayForm()"></i>
+		<h2>Congratulations!</h2>
+	</div>
+</body>
+</html>
