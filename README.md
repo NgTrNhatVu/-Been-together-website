@@ -8,4 +8,8 @@ A capture of it:
 
 To run it: just downoad those html, css, js, img files and place them in a same folder. Amature? Yes, but will be improved :D
 
-13/10/2020: Change some names, add a SCSS file
+13/10/2020: Spend 2 hours to change some names, improve some CSS, add a SCSS file
+
+![image](https://user-images.githubusercontent.com/61381778/95858152-d4172f00-0d86-11eb-8009-a041b63981ae.png)
+
+The code is easier to understand and the website look a little bit better now!
